@@ -1,9 +1,11 @@
 import React from 'react'
-import Filtered from './components/c3/Filtered'
+import SelectedCourses from './components/c4/SelectedCourses'
+
 
 /* 
 import Dersler from './components/c1/Dersler' 
 import IsLogin from './components/c2/IsLogin'
+import Filtered from './components/c3/Filtered'
 */
 
 const App = () => {
@@ -12,8 +14,9 @@ const App = () => {
       {/* 
       <Dersler/> 
       <IsLogin/>
-      */}
       <Filtered/>
+      */}
+      <SelectedCourses/>
     </div>
   )
 }
