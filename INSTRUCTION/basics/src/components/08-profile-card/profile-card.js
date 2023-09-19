@@ -14,7 +14,7 @@ const ProfileCard = (props) => {
             <h5>{props.location}</h5>
             <div className="stats">
                 {
-                    props.statistics.map((statistic) => (<Statistics
+                    props.statistics.map((statistic) => (<Statistics key={statistic.title}
                     {...statistic}
                     />))
                 }

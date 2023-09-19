@@ -10,15 +10,15 @@ const State = () => {
     }
 
     let number = 10;
-    /* const handleDarkMode = () => {
-        setMode("dark")
-    }  */
+    const handleDarkMode = () => {
+        setMode("dark");
+    } 
   return (
     <Container className={classNames}>
         <h1 className='text-uppercase'>DARK-LIGHT mode</h1>
         <ButtonGroup>
             <Button variant='warning' onClick={() => number += 5}>Dark Mode</Button>
-            <Button variant='success' onClick={() => setMode("light") }>Light Mode</Button>
+            <Button variant='success' onClick={handleDarkMode}>Light Mode</Button>
         </ButtonGroup>
         <p className='fs-2'>{number}</p>
         </Container>

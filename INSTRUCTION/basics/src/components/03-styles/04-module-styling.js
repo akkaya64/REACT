@@ -2,7 +2,7 @@ import styles from "./04-module-styling.module.css";
 // import "./04-module-styling.css";
 
 const ModuleStyling = () => {
-    console.log(styles);
+    // console.log(styles);
 
     // const newStyles = {
     //     externalModuleStyling: {

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Jsx1 = () => {
     const X = 5;
-    console.log(X);
+    //console.log(X);
 
     const user = {
         firstName: 'John',
