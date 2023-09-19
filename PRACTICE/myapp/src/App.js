@@ -1,7 +1,9 @@
 import React from 'react'
-import IsLogin from './components/c2/IsLogin'
+import Filtered from './components/c3/Filtered'
+
 /* 
 import Dersler from './components/c1/Dersler' 
+import IsLogin from './components/c2/IsLogin'
 */
 
 const App = () => {
@@ -9,8 +11,9 @@ const App = () => {
     <div>
       {/* 
       <Dersler/> 
-      */}
       <IsLogin/>
+      */}
+      <Filtered/>
     </div>
   )
 }
