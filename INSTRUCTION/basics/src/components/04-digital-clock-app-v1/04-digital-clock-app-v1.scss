@@ -1,0 +1,22 @@
+@font-face {
+    font-family: digital;
+    src: url(../../assets/fonts/ds-digi.ttf);
+}
+
+.digital-clock-app-v1 {
+    margin: 2rem;
+    font-family: digital;
+    background-color: teal;
+    border-radius: .5rem;
+    color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:  1rem;
+    padding:  1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    .time {
+        font-size: 5rem;
+    }
+}

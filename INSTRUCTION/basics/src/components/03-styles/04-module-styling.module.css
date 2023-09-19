@@ -1,0 +1,20 @@
+.externalModuleStyling {
+    color: darkorchid;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid darkorchid;
+    border-radius: 1.5rem;
+}
+
+#title {
+    color: orange;
+    text-align: center;
+}
+
+.external-styling-module {
+    color: darkcyan;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid darkcyan;
+    border-radius: 1.5rem;
+}
