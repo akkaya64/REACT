@@ -1,8 +1,17 @@
 import React from 'react'
+import IsLogin from './components/c2/IsLogin'
+/* 
+import Dersler from './components/c1/Dersler' 
+*/
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      {/* 
+      <Dersler/> 
+      */}
+      <IsLogin/>
+    </div>
   )
 }
 
