@@ -25,6 +25,7 @@ import Events from "./components/11-events/events";
 import ProductShop from "./components/12-product-shop/product-shop";
 import State from "./components/13-usestate/state";
 import Counter from "./components/14-counter/counter";
+import Birthday from "./components/15-birthday/Birthday";
 
 
 
@@ -106,6 +107,7 @@ const App = () => {
         <ProductShop/>
         <State/>
         <Counter/>
+        <Birthday/>
     </div>
 };
 
