@@ -2,7 +2,7 @@ import {useState} from 'react'
 import { Button, ButtonGroup, Container } from 'react-bootstrap';
 
 const State = () => {
-    const [mode, setMode]  = useState();
+    const [mode, setMode]  = useState("light");
     let classNames = "bg-dark text-white p-5 text-center";
 
     if (mode === "light") {
