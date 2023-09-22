@@ -27,6 +27,7 @@ import State from "./components/13-usestate/state";
 import Counter from "./components/14-counter/counter";
 import Birthday from "./components/15-birthday/Birthday";
 import UseEffect from "./components/16-useeffect/UseEffect";
+import CounterTitle from "./components/17-counter-title/CounterTitle";
 
 
 
@@ -110,6 +111,7 @@ const App = () => {
         <Counter/>
         <Birthday/>
         <UseEffect/>
+        <CounterTitle/>
     </div>
 };
 
