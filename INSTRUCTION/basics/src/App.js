@@ -29,6 +29,7 @@ import Birthday from "./components/15-birthday/Birthday";
 import UseEffect from "./components/16-useeffect/UseEffect";
 import CounterTitle from "./components/17-counter-title/CounterTitle";
 import DigitalClockAppV3 from "./components/18-digital-clock-app-v3/18-digital-clock-app-v3";
+import UseRef from "./components/19-useref/UseRef";
 
 
 
@@ -113,7 +114,8 @@ const App = () => {
         <Birthday/>
         <UseEffect/>
         <CounterTitle/>
-        <DigitalClockAppV3 color='darkcyan' backgroundColor='purple'/>
+        <DigitalClockAppV3 color='white' backgroundColor='purple'/>
+        <UseRef/>
     </div>
 };
 
