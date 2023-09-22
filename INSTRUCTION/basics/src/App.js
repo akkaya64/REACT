@@ -28,6 +28,7 @@ import Counter from "./components/14-counter/counter";
 import Birthday from "./components/15-birthday/Birthday";
 import UseEffect from "./components/16-useeffect/UseEffect";
 import CounterTitle from "./components/17-counter-title/CounterTitle";
+import DigitalClockAppV3 from "./components/18-digital-clock-app-v3/18-digital-clock-app-v3";
 
 
 
@@ -112,6 +113,7 @@ const App = () => {
         <Birthday/>
         <UseEffect/>
         <CounterTitle/>
+        <DigitalClockAppV3 color='darkcyan' backgroundColor='purple'/>
     </div>
 };
 
