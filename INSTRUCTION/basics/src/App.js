@@ -32,6 +32,7 @@ import DigitalClockAppV3 from "./components/18-digital-clock-app-v3/18-digital-c
 import UseRef from "./components/19-useref/UseRef";
 import ClassTypeComponent from "./components/20-component-types/ClassTypeComponent";
 import FunctionTypeComponent from "./components/20-component-types/FunctionTypeComponent";
+import Fetch from "./components/21-fetch/01-Fetch";
 
 
 
@@ -120,6 +121,7 @@ const App = () => {
         <UseRef/>
         <ClassTypeComponent/>
         <FunctionTypeComponent/>
+        <Fetch/>
     </div>
 };
 
