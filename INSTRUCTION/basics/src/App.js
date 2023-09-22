@@ -31,6 +31,7 @@ import CounterTitle from "./components/17-counter-title/CounterTitle";
 import DigitalClockAppV3 from "./components/18-digital-clock-app-v3/18-digital-clock-app-v3";
 import UseRef from "./components/19-useref/UseRef";
 import ClassTypeComponent from "./components/20-component-types/ClassTypeComponent";
+import FunctionTypeComponent from "./components/20-component-types/FunctionTypeComponent";
 
 
 
@@ -118,6 +119,7 @@ const App = () => {
         <DigitalClockAppV3 color='white' backgroundColor='purple'/>
         <UseRef/>
         <ClassTypeComponent/>
+        <FunctionTypeComponent/>
     </div>
 };
 
