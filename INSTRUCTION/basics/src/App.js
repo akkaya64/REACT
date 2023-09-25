@@ -36,10 +36,11 @@ import Fetch1 from "./components/21-fetch/01-Fetch";
 import Fetch02 from "./components/21-fetch/02-Fetch";
 import Countries from "./components/22-axios/Countries";
 import ParentComponent from "./components/23-lifting-satates/ParentComponent";
+import Form from "./components/24-forms/01-Form";
 
 const App = () => { 
     return <div>
-        <X />
+   {/*      <X />
         <Pears/>
         <Bananas/>
         <Jsx1 />
@@ -124,7 +125,8 @@ const App = () => {
         <Fetch1/>
         <Fetch02/>
         <Countries/>
-        <ParentComponent/>
+        <ParentComponent/> */}
+        <Form/>
     </div>
 };
 
