@@ -35,10 +35,7 @@ import FunctionTypeComponent from "./components/20-component-types/FunctionTypeC
 import Fetch1 from "./components/21-fetch/01-Fetch";
 import Fetch02 from "./components/21-fetch/02-Fetch";
 import Countries from "./components/22-axios/Countries";
-import Country from "./components/22-axios/Country";
-
-
-
+import ParentComponent from "./components/23-lifting-satates/ParentComponent";
 
 const App = () => { 
     return <div>
@@ -127,6 +124,7 @@ const App = () => {
         <Fetch1/>
         <Fetch02/>
         <Countries/>
+        <ParentComponent/>
     </div>
 };
 
