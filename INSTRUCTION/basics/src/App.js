@@ -34,6 +34,8 @@ import ClassTypeComponent from "./components/20-component-types/ClassTypeCompone
 import FunctionTypeComponent from "./components/20-component-types/FunctionTypeComponent";
 import Fetch1 from "./components/21-fetch/01-Fetch";
 import Fetch02 from "./components/21-fetch/02-Fetch";
+import Countries from "./components/22-axios/Countries";
+import Country from "./components/22-axios/Country";
 
 
 
@@ -124,6 +126,7 @@ const App = () => {
         <FunctionTypeComponent/>
         <Fetch1/>
         <Fetch02/>
+        <Countries/>
     </div>
 };
 
