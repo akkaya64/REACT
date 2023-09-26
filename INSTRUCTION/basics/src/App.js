@@ -1,4 +1,4 @@
-import X from "./components/01-my-house/01-my-house";
+/* import X from "./components/01-my-house/01-my-house";
 import { Pears, Bananas } from "./components/01-my-house/01-my-house";
 import Jsx1 from "./components/02-jsx/01-jsx";
 import Jsx2 from "./components/02-jsx/02-jsx";
@@ -35,8 +35,9 @@ import FunctionTypeComponent from "./components/20-component-types/FunctionTypeC
 import Fetch1 from "./components/21-fetch/01-Fetch";
 import Fetch02 from "./components/21-fetch/02-Fetch";
 import Countries from "./components/22-axios/Countries";
-import ParentComponent from "./components/23-lifting-satates/ParentComponent";
+import ParentComponent from "./components/23-lifting-satates/ParentComponent"; */
 import Form from "./components/24-forms/01-Form";
+import Form02 from "./components/24-forms/02-Form";
 
 const App = () => { 
     return <div>
@@ -127,6 +128,7 @@ const App = () => {
         <Countries/>
         <ParentComponent/> */}
         <Form/>
+        <Form02/>
     </div>
 };
 
