@@ -38,6 +38,7 @@ import Countries from "./components/22-axios/Countries";
 import ParentComponent from "./components/23-lifting-satates/ParentComponent"; */
 import Form from "./components/24-forms/01-Form";
 import Form02 from "./components/24-forms/02-Form";
+import Form03 from "./components/24-forms/03-Form";
 
 const App = () => { 
     return <div>
@@ -129,6 +130,7 @@ const App = () => {
         <ParentComponent/> */}
         <Form/>
         <Form02/>
+        <Form03/>
     </div>
 };
 
