@@ -83,7 +83,7 @@ const Form04 = () => {
       //...prev, [name]:value
     }));
   };
-  
+
   return (
     <Container>
       <h1>Form 04</h1>
@@ -103,19 +103,16 @@ const Form04 = () => {
           </Form.Group>
         ))}
 
-        <Form.Label>Gender</Form.Label>
-        {genderArray.map(genderItem => (
-          <Form.Group key={genderItem.id} className="mb-3">
+        <Form.Group className="mb-3">
+          <Form.Label>Gender</Form.Label>
+          {genderArray.map(genderItem => (
             <Form.Check
-              type={genderItem.type}
-              label={genderItem.label}
-              name={genderItem.name}
-              id={genderItem.id}
-              value={form[genderItem.name]}
+              key={genderItem.id}
+              {...genderItem}
               onChange={handleChange}
             />
-          </Form.Group>
-        ))}
+          ))}
+        </Form.Group>
 
         <Form.Group className="mb-3">
           <Form.Check
