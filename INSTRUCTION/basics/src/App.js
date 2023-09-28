@@ -40,8 +40,9 @@ import Form from "./components/24-forms/01-Form";
 import Form02 from "./components/24-forms/02-Form";
 import Form03 from "./components/24-forms/03-Form";
 import Form04 from "./components/24-forms/04-Form";
-import Form05 from "./components/24-forms/05-Form"; */
-import FormikYub01 from "./components/25-formik-yup/FormikYub01";
+import Form05 from "./components/24-forms/05-Form"; 
+import FormikYub01 from "./components/25-formik-yup/FormikYub01";*/
+import FormikYup02 from "./components/25-formik-yup/FormikYup02";
 
 const App = () => { 
     return <div>
@@ -135,8 +136,9 @@ const App = () => {
         <Form02/>
         <Form03/>
         <Form04/>
-        <Form05/>*/}
-        <FormikYub01/>
+        <Form05/>
+        <FormikYub01/>*/}
+        <FormikYup02/>
     </div>
 };
 
