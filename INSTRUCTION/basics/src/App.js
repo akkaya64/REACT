@@ -35,12 +35,13 @@ import FunctionTypeComponent from "./components/20-component-types/FunctionTypeC
 import Fetch1 from "./components/21-fetch/01-Fetch";
 import Fetch02 from "./components/21-fetch/02-Fetch";
 import Countries from "./components/22-axios/Countries";
-import ParentComponent from "./components/23-lifting-satates/ParentComponent"; */
+import ParentComponent from "./components/23-lifting-satates/ParentComponent"; 
 import Form from "./components/24-forms/01-Form";
 import Form02 from "./components/24-forms/02-Form";
 import Form03 from "./components/24-forms/03-Form";
 import Form04 from "./components/24-forms/04-Form";
-import Form05 from "./components/24-forms/05-Form";
+import Form05 from "./components/24-forms/05-Form"; */
+import FormikYub01 from "./components/25-formik-yup/FormikYub01";
 
 const App = () => { 
     return <div>
@@ -129,12 +130,13 @@ const App = () => {
         <Fetch1/>
         <Fetch02/>
         <Countries/>
-        <ParentComponent/> */}
+        <ParentComponent/> 
         <Form/>
         <Form02/>
         <Form03/>
         <Form04/>
-        <Form05/>
+        <Form05/>*/}
+        <FormikYub01/>
     </div>
 };
 
