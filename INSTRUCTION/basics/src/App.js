@@ -40,6 +40,7 @@ import Form from "./components/24-forms/01-Form";
 import Form02 from "./components/24-forms/02-Form";
 import Form03 from "./components/24-forms/03-Form";
 import Form04 from "./components/24-forms/04-Form";
+import Form05 from "./components/24-forms/05-Form";
 
 const App = () => { 
     return <div>
@@ -133,6 +134,7 @@ const App = () => {
         <Form02/>
         <Form03/>
         <Form04/>
+        <Form05/>
     </div>
 };
 
