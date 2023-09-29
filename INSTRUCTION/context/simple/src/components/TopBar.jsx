@@ -6,7 +6,7 @@ const defaultCurrency = "USD";
 const TopBar = () => {
     const store = useContext(CurrencyContext);
     const { currencies } = store;
-    console.log(currencies)
+    //console.log(currencies)
 
     const formatCurrency = (currency) => {
         const result = currencies

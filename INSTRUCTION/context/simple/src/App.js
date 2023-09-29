@@ -11,9 +11,7 @@ const App = () => {
         fetch(`${API_URL}/latest?from=try`)
         .then((response) => response.json())
         .then((data) => setCurrencies(data.rates))
-        .catch((error) => console.log(error))
-        .finally(() => console.log('verileri alamya gittik geldik'));
-            
+        .catch((error) => console.log(error));
     }, []);
 
     return (
