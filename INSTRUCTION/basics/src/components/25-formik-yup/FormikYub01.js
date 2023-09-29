@@ -30,8 +30,8 @@ const FormikYub01 = () => {
   });
 
   // Hata mesajlarını ve dokunulmuş alanları console'da göstermek için.
-  console.log(formik.errors)
-  console.log(formik.touched)
+  // console.log(formik.errors)
+  // console.log(formik.touched)
 
   // Componentin render edeceği JSX'i return ediyoruz.
   return (

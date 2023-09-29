@@ -1,6 +1,6 @@
+import React, { useState, useEffect } from "react";
 import { useFormik } from "formik";
-import React from "react";
-import { Button, Container, Form } from "react-bootstrap";
+import { Button, Container, Form, Dropdown } from "react-bootstrap";
 import * as Yup from "yup";
 import axios from "axios";
 
@@ -8,6 +8,8 @@ import axios from "axios";
 const BASE_URL = process.env.REACT_APP_API_URL;
 
 const FormikYup02 = () => {
+  const [suggestions, setSuggestions] = useState([]);
+  const [isMatched, setIsMatched] = useState(null);
   // Formik hook kullanarak form kontrolünü yapıyoruz
   const formik = useFormik({
     // Form başlangıç değerleri
@@ -33,6 +35,7 @@ const FormikYup02 = () => {
         .min(6, "Please enter at least 6 character")
         .max(15, "Please enter maximum 15 character")
         .required("Required field, please enter your password."),
+      id: Yup.string().required("ID is required"),
     }),
     // Form gönderildiğinde çalışacak fonksiyon
     onSubmit: async values => {
@@ -60,11 +63,53 @@ const FormikYup02 = () => {
       .finally(() => console.log("went and returned"));
   };
 
+  useEffect(() => {
+    const fetchSuggestions = async () => {
+      try {
+        const response = await axios.get(`${BASE_URL}/get-ids?input=${formik.values.id}`);
+        setSuggestions(response.data.ids || []);
+        
+        const isMatch = response.data.ids.includes(formik.values.id);
+        setIsMatched(isMatch);
+        
+      } catch (error) {
+        console.error('Failed to fetch suggestions:', error);
+      }
+    };
+    
+    fetchSuggestions();
+  }, [formik.values.id]);
+  
+  const handleSelect = (id) => {
+    formik.setFieldValue("id", id);
+  };
+
   return (
     <Container>
       <h1>Formik Yup 02</h1>
       <p>Required fields</p>
       <Form noValidate onSubmit={formik.handleSubmit}>
+
+      <Form.Group controlId="id" className="my-3">
+          <Form.Label>ID</Form.Label>
+          
+          <Form.Control
+            type="text"
+            placeholder="Please enter your ID"
+            {...formik.getFieldProps("id")}
+            style={{ borderColor: isMatched === null ? 'initial' : isMatched ? 'blue' : 'red' }}
+          />
+          
+          <Dropdown.Menu>
+            {suggestions.map((suggestion) => (
+              <Dropdown.Item key={suggestion} onClick={() => handleSelect(suggestion)}>
+                {suggestion}
+              </Dropdown.Item>
+            ))}
+          </Dropdown.Menu>
+          
+        </Form.Group>
+
         {/* Form alanlarını render ediyoruz */}
         <Form.Group controlId="id" className="my-3">
           <Form.Label>ID</Form.Label>

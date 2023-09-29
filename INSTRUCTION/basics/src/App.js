@@ -1,4 +1,4 @@
-/* import X from "./components/01-my-house/01-my-house";
+import X from "./components/01-my-house/01-my-house";
 import { Pears, Bananas } from "./components/01-my-house/01-my-house";
 import Jsx1 from "./components/02-jsx/01-jsx";
 import Jsx2 from "./components/02-jsx/02-jsx";
@@ -41,18 +41,18 @@ import Form02 from "./components/24-forms/02-Form";
 import Form03 from "./components/24-forms/03-Form";
 import Form04 from "./components/24-forms/04-Form";
 import Form05 from "./components/24-forms/05-Form"; 
-import FormikYub01 from "./components/25-formik-yup/FormikYub01";*/
+import FormikYub01 from "./components/25-formik-yup/FormikYub01";
 import FormikYup02 from "./components/25-formik-yup/FormikYup02";
 
 const App = () => { 
     return <div>
-   {/*      <X />
+         <X />
         <Pears/>
         <Bananas/>
-        <Jsx1 />
+        {/* <Jsx1 />
         <Jsx2 />
         <Jsx3 />
-        <Jsx4 />
+        <Jsx4 /> 
         <InlineStyling/>
         <InternalStyling/>
         <ExternalStyling/>
@@ -137,8 +137,8 @@ const App = () => {
         <Form03/>
         <Form04/>
         <Form05/>
-        <FormikYub01/>*/}
-        <FormikYup02/>
+        <FormikYub01/>
+        <FormikYup02/>*/}
     </div>
 };
 
