@@ -1,6 +1,7 @@
 import React from 'react'
-import Products from './components/c6/Products'
+import Countries from './components/c7/Countries'
 /* 
+import Products from './components/c6/Products'
 import Table from './components/c5/Table'
 import SelectedCourses from './components/c4/SelectedCourses'
 import IsLogin from './components/c2/IsLogin'
@@ -17,8 +18,9 @@ const App = () => {
       <IsLogin/>
       <Dersler/> 
       <Table/>
-      */}
       <Products/>
+      */}
+      <Countries/>
     </div>
   )
 }
