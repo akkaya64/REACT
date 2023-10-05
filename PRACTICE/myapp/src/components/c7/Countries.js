@@ -21,7 +21,7 @@ const Countries = () => {
         Choose a country{" "}
     </option>
     {
-        countries.map((country, index) => (
+        countries.map((country) => (
             <option key={country.code} value={country.code}>{country.name}</option>
         ))
     };
