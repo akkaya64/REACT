@@ -1,6 +1,7 @@
 import React from 'react'
-import Countries from './components/c7/Countries'
+import People from './components/c8/People'
 /* 
+import Countries from './components/c7/Countries'
 import Products from './components/c6/Products'
 import Table from './components/c5/Table'
 import SelectedCourses from './components/c4/SelectedCourses'
@@ -19,8 +20,9 @@ const App = () => {
       <Dersler/> 
       <Table/>
       <Products/>
-      */}
       <Countries/>
+      */}
+      <People/>
     </div>
   )
 }
