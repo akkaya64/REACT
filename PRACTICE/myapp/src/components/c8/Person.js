@@ -17,7 +17,7 @@ const Person = ({student}) => {
             {/* Öğrencinin resmi img etiketi ile gösteriliyor.
                 width ve height ile resmin boyutları belirleniyor.
                 alt propertysi ile resim yüklenmediği zaman görünecek alternatif metin atanıyor. */}
-            <img src={img} alt='resim' width="200"/>
+            <img src={img} alt='resim' width="200" height={200}/>
 
             {/* Öğrencinin yaşı h2 etiketi içerisinde gösteriliyor. */}
             <h2>{yas}</h2>

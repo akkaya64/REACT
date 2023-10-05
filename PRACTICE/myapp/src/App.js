@@ -1,6 +1,9 @@
 import React from 'react'
-import People from './components/c8/People'
+import StudentCard from './components/c9/StudentCard'
+
+
 /* 
+import People from './components/c8/People'
 import Countries from './components/c7/Countries'
 import Products from './components/c6/Products'
 import Table from './components/c5/Table'
@@ -21,8 +24,9 @@ const App = () => {
       <Table/>
       <Products/>
       <Countries/>
-      */}
       <People/>
+      */}
+      <StudentCard/>
     </div>
   )
 }
