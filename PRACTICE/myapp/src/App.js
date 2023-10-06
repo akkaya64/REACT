@@ -1,8 +1,9 @@
 import React from 'react'
-import StudentCard from './components/c9/StudentCard'
-
-
+import Poets from './components/c12/Poets'
 /* 
+import RandomImage from './components/c11/RandomImage'
+import Shop from './components/c10/Shop'
+import StudentCard from './components/c9/StudentCard'
 import People from './components/c8/People'
 import Countries from './components/c7/Countries'
 import Products from './components/c6/Products'
@@ -25,8 +26,11 @@ const App = () => {
       <Products/>
       <Countries/>
       <People/>
-      */}
       <StudentCard/>
+      <Shop/>
+      <RandomImage/>
+      */}
+      <Poets/>
     </div>
   )
 }
