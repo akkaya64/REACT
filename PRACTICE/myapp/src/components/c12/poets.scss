@@ -1,20 +1,17 @@
-.kartlar{
+.cards{
     margin: 5rem auto;
     text-align: center;
-    padding-bottom: 2rem;
     position: relative;
 
     img{
         height: 300px;
         object-fit: cover;
     }
-    .butonlar{
+    .buttons{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        gap: 2rem;
-        margin-top: 1rem;
-        position: absolute;
+        gap: .4rem;
         text-align: center;
 
     }
