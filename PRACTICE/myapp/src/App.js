@@ -1,6 +1,7 @@
 import React from 'react'
-import Poets from './components/c12/Poets'
+import Paragraf from './components/c13/Paragraf'
 /* 
+import Poets from './components/c12/Poets'
 import RandomImage from './components/c11/RandomImage'
 import Shop from './components/c10/Shop'
 import StudentCard from './components/c9/StudentCard'
@@ -29,8 +30,9 @@ const App = () => {
       <StudentCard/>
       <Shop/>
       <RandomImage/>
-      */}
       <Poets/>
+      */}
+      <Paragraf/>
     </div>
   )
 }
